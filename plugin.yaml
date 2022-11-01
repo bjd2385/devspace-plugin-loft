@@ -2,7 +2,7 @@ name: loft
 version: v2.3.2
 commands:
   - name: "login"
-    usage: "Log into Loft"
+    usage: "Log into Rancher"
     baseArgs: ["login"]
   - name: "spaces"
     baseArgs: ["list", "spaces"]
@@ -11,24 +11,17 @@ commands:
 vars:
   - name: RANCHER_TOKEN
     baseArgs: ["vars", "cluster"]
-  - name: LOFT_USERNAME
-    baseArgs: ["vars", "username"]
+  - name: RANCHER
 binaries:
   - os: darwin
     arch: amd64
-    path: https://github.com/loft-sh/devspace-plugin-loft/releases/download/v2.3.2/devspace-plugin-loft-darwin-amd64
-  - os: darwin
-    arch: arm64
-    path: https://github.com/loft-sh/devspace-plugin-loft/releases/download/v2.3.2/devspace-plugin-loft-darwin-arm64
+    path: https://github.com/rancher/cli/releases/download/v2.6.9/rancher-darwin-amd64-v2.6.9.tar.gz
   - os: linux
     arch: amd64
-    path: https://github.com/loft-sh/devspace-plugin-loft/releases/download/v2.3.2/devspace-plugin-loft-linux-amd64
-  - os: linux
-    arch: "386"
-    path: https://github.com/loft-sh/devspace-plugin-loft/releases/download/v2.3.2/devspace-plugin-loft-linux-386
+    path: https://github.com/rancher/cli/releases/download/v2.6.9/rancher-linux-amd64-v2.6.9.tar.gz
   - os: windows
     arch: amd64
-    path: https://github.com/loft-sh/devspace-plugin-loft/releases/download/v2.3.2/devspace-plugin-loft-windows-amd64.exe
+    path: https://github.com/rancher/cli/releases/download/v2.6.9/rancher-windows-amd64-v2.6.9.zip
   - os: windows
     arch: "386"
-    path: https://github.com/loft-sh/devspace-plugin-loft/releases/download/v2.3.2/devspace-plugin-loft-windows-386.exe
+    path: https://github.com/rancher/cli/releases/download/v2.6.9/rancher-windows-386-v2.6.9.zip
