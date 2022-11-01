@@ -1,0 +1,8 @@
+_extends: .github
+
+repository:
+  name: devspace-plugin-rancher
+  description: DevSpace plugin for the Rancher CLI
+  homepage: https://github.com/rancher/cli
+  topics: rancher, kubernetes, devspace
+  private: false
