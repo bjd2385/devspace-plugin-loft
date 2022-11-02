@@ -1,7 +1,7 @@
 DevSpace Rancher Plugin
 -----------------------
 
-This plugin adds the [Loft CLI](https://github.com/loft-sh/loft) commands to [DevSpace](https://github.com/loft-sh/devspace).
+This plugin adds the [Rancher CLI](https://github.com/rancher/cli/releases) commands to [DevSpace](https://github.com/loft-sh/devspace).
 
 ## Installation
 
